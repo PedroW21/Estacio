@@ -1,6 +1,9 @@
 #include <stdlib.h>
+#include <stdio.h>
 
-void * malloc (size_t size); // aloca um determinado numero de bytes e retorna o ponteiro (a referencia do local) para o primeiro byte alocado
+void * malloc (size_t size); // aloca um determinado numero de bytes e retorna o ponteiro (a referencia do local) para o primeiro byte alocado ou null (se nao for possivel alocar)
+
+void * calloc () // aloca um bloco de memoria suficiente para conter um vetor dinamico
 
 void free (void *ptr); // liberação manual do espaço alocado
 
