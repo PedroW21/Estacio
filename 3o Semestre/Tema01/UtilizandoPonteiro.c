@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main(void) {
     int variavelParaAlterar = 10;
@@ -10,10 +9,8 @@ int main(void) {
 
     printf("Utilizando ponteiros, seja o que Deus quiser =D\n");
     printf("Conteúdo da variável: %i\n", variavelParaAlterar);
-    printf("Endereço da váriavel na memória: %x\n", &variavelParaAlterar);
-    printf("Conteúdo da váriavel ponteiro: %x", ponteiro);
-
-    getch();
+    printf("Endereço da váriavel na memória: %x\n", &variavelParaAlterar); //foi utilizado x por ser um valor hexadecimal;
+    printf("Conteúdo da váriavel ponteiro: %x\n", ponteiro); 
 
     return 0;
 }
