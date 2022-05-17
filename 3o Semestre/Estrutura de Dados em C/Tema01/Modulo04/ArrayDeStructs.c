@@ -30,19 +30,23 @@ void main()
         printf("Digite a matricula do aluno: ");
         scanf("%i", &aluno[i].Matricula);
 
+        getchar();
+
         printf("Digite o nome do aluno: ");
         fgets(aluno[i].Nome, sizeof(aluno[i].Nome), stdin);
 
-        // não funciona, pq? - funcionava
+        // funciona, scanf safado
 
-        getchar();
+        // getchar();
 
         printf("Digite a matéria: ");
         fgets(aluno[i].Materia, sizeof(aluno[i].Materia), stdin);
+        
+        // getchar();
 
         printf("Digite as 4 notas do aluno: ");
 
-        getchar();
+        // getchar();
 
         scanf("%f", &aluno[i].notas[0]);
         scanf("%f", &aluno[i].notas[1]);
@@ -53,7 +57,7 @@ void main()
 
         fimCadastro -= 1;
 
-        if (!i == qtdCadastro)
+        if (i < qtdCadastro-1)
             printf("\nFim do %io cadastro, faltam %i\n\n", i + 1, fimCadastro);
     }
 
