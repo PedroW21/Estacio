@@ -4,3 +4,4 @@ def imprimeConsole(str):
     "Esta função imprimirá no terminal: "
     print str
     return
+    
