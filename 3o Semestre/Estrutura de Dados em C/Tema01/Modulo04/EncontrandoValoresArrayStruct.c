@@ -4,13 +4,13 @@
 void main()
 {
 
-    char array[50][100] = {"Adalberto", "Alice", "Bob"};
+    char array[50][3] = {"Adalberto", "Alice", "Bob"};
 
     printf("Digite o nome que deseja encontrar: ");
     char nomeProcurado[50];
     scanf("%s", &nomeProcurado);
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < sizeof(array); i++)
     {
         if (strcmp(nomeProcurado, array[i]) == 0)
         {
