@@ -29,7 +29,7 @@ void main()
     {
         printf("Digite a matricula do aluno: ");
         scanf("%i", &aluno[i].Matricula);
-
+        
         getchar();
 
         printf("Digite o nome do aluno: ");
