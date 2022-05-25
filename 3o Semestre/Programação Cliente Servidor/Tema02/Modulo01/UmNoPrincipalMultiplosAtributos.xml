@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<correntistas>
+    <conta agencia="0001-1" tipo="Fisica" nome="Pierre" numero="123-456" />
+
+    <conta agencia="0002-1" tipo="Juridica" nome="Empresa S.A" numero="123456-890123" />
+
+</correntistas>
+
