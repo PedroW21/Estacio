@@ -10,6 +10,7 @@ int main(void) {
     printf("Utilizando ponteiros, seja o que Deus quiser =D\n");
     printf("Conteúdo da variável: %i\n", variavelParaAlterar);
     printf("Endereço da váriavel na memória: %x\n", &variavelParaAlterar); //foi utilizado x por ser um valor hexadecimal;
+    printf("Endereço do ponteiro: %x\n", &ponteiro);
     printf("Conteúdo da váriavel ponteiro: %x\n", ponteiro); 
 
     return 0;
