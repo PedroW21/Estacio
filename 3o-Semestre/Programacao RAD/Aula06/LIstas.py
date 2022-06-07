@@ -6,6 +6,8 @@ print("\nVerificando se a lista contem um elemento")
 print(1 in lista)
 print("Pierre" in lista)
 
+print(lista[1])
+
 print("\nVerificando o minimo, o maximo e a soma dos numeros de uma lista")
 numeros = [1,128,12,356,0,888]
 
